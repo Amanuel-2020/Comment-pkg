@@ -19,8 +19,8 @@ return new class extends Migration {
             $table->unsignedBigInteger('commentable_id');
             $table->string('commentable_type', 100);
             $table->text('body');
-            $table->enum('status', \amanuel\Comment\Models\Comment::$statuses)
-                ->default(\amanuel\Comment\Models\Comment::STATUS_NEW);
+            $table->enum('status', \Abd\Comment\Models\Comment::$statuses)
+                ->default(\Abd\Comment\Models\Comment::STATUS_NEW);
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('CASCADE');
