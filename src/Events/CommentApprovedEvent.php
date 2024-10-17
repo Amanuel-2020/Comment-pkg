@@ -1,8 +1,8 @@
 <?php
 
-namespace Amanuel\Comment\Events;
+namespace amanuel\Comment\Events;
 
-use Amanuel\Comment\Models\Comment;
+use amanuel\Comment\Models\Comment;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Foundation\Events\Dispatchable;

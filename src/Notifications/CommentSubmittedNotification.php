@@ -1,8 +1,8 @@
 <?php
 
-namespace Amanuel\Comment\Notifications;
+namespace amanuel\Comment\Notifications;
 
-use Amanuel\Comment\Mail\CommentSubmittedMail;
+use amanuel\Comment\Mail\CommentSubmittedMail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Kavenegar\LaravelNotification\KavenegarChannel;
@@ -57,7 +57,7 @@ class CommentSubmittedNotification extends Notification
 
     public function toSMS($notifiable)
     {
-        return 'A new comment has been submitted for your course on Amanuel W. website. Click the link below to view and respond.'."\n".route('comments.index');
+        return 'A new comment has been submitted for your course on amanuel W. website. Click the link below to view and respond.'."\n".route('comments.index');
     }
 
     public function toArray($notifiable): array

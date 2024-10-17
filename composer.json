@@ -2,13 +2,13 @@
     "name": "amanuel/comment",
     "autoload": {
         "psr-4": {
-            "Amanuel\\Comment\\": "src"
+            "amanuel\\Comment\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers":[
-                "\\Amanuel\\Comment\\Providers\\CommentServiceProvider"
+                "\\amanuel\\Comment\\Providers\\CommentServiceProvider"
             ]
         }
     }

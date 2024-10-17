@@ -8,14 +8,14 @@
             <a class="tab__item {{request('status') ==''  ? 'is-active' : ""}}"
                href="{{route('comments.index')}}?=status=">
                 All Comments</a>
-            <a class="tab__item {{request('status') == \Amanuel\Comment\Models\Comment::STATUS_NEW  ? 'is-active' : ""}}"
-               href="{{route('comments.index')}}?status={{\Amanuel\Comment\Models\Comment::STATUS_NEW}}">Unapproved
+            <a class="tab__item {{request('status') == \amanuel\Comment\Models\Comment::STATUS_NEW  ? 'is-active' : ""}}"
+               href="{{route('comments.index')}}?status={{\amanuel\Comment\Models\Comment::STATUS_NEW}}">Unapproved
                 Comments</a>
-            <a class="tab__item {{request('status') == \Amanuel\Comment\Models\Comment::STATUS_REJECTED  ? 'is-active' : ""}}"
-               href="{{route('comments.index')}}?status={{\Amanuel\Comment\Models\Comment::STATUS_REJECTED}}">Rejected
+            <a class="tab__item {{request('status') == \amanuel\Comment\Models\Comment::STATUS_REJECTED  ? 'is-active' : ""}}"
+               href="{{route('comments.index')}}?status={{\amanuel\Comment\Models\Comment::STATUS_REJECTED}}">Rejected
                 Comments</a>
-            <a class="tab__item {{request('status') == \Amanuel\Comment\Models\Comment::STATUS_APPROVED  ? 'is-active' : ""}}"
-               href="{{route('comments.index')}}?status={{\Amanuel\Comment\Models\Comment::STATUS_APPROVED}}">Approved
+            <a class="tab__item {{request('status') == \amanuel\Comment\Models\Comment::STATUS_APPROVED  ? 'is-active' : ""}}"
+               href="{{route('comments.index')}}?status={{\amanuel\Comment\Models\Comment::STATUS_APPROVED}}">Approved
                 Comments</a>
         </div>
     </div>
@@ -61,7 +61,7 @@
                     <td class="confirmation_status {{$comment->getStatusCssClass()}}">@lang($comment->status)</td>
                     <td>
                         <a href="{{route('comments.show', $comment->id)}}" class="item-eye mlg-15" title="View"></a>
-                        @can(\Amanuel\RolePermissions\Models\Permission::PERMISSION_MANAGE_COMMENTS)
+                        @can(\amanuel\RolePermissions\Models\Permission::PERMISSION_MANAGE_COMMENTS)
                             <a href=""
                                onclick="deleteItem(event, '{{ route('comments.destroy', $comment->id)}}');"
                                class="item-delete mlg-15" title="Delete"></a>
