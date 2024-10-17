@@ -1,6 +1,6 @@
 <?php
 
-use Abd\Comment\Http\Controllers\CommentController;
+use Amanuel\Comment\Http\Controllers\CommentController;
 
 Route::group([], function($router){
     $router->resources(["comments" => CommentController::class]);

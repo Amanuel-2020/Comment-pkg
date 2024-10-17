@@ -1,8 +1,8 @@
 <?php
 
-namespace Abd\Comment\Listeners;
+namespace Amanuel\Comment\Listeners;
 
-use Abd\Comment\Notifications\CommentSubmittedNotification;
+use Amanuel\Comment\Notifications\CommentSubmittedNotification;
 
 class CommentSubmittedListener
 {

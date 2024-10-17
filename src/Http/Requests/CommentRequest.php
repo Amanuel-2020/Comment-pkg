@@ -1,9 +1,9 @@
 <?php
 
-namespace Abd\Comment\Http\Requests;
+namespace Amanuel\Comment\Http\Requests;
 
-use Abd\Comment\Rules\ApprovedCommentRule;
-use Abd\Comment\Rules\CommentableRule;
+use Amanuel\Comment\Rules\ApprovedCommentRule;
+use Amanuel\Comment\Rules\CommentableRule;
 use Illuminate\Foundation\Http\FormRequest;
 
 class CommentRequest extends FormRequest

@@ -1,8 +1,8 @@
 <?php
 
-namespace Abd\Comment\Policies;
+namespace Amanuel\Comment\Policies;
 
-use Abd\RolePermissions\Models\Permission;
+use Amanuel\RolePermissions\Models\Permission;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class CommentPolicy

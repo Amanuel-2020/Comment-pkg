@@ -1,5 +1,5 @@
 <?php
-namespace Abd\Comment\Rules;
+namespace Amanuel\Comment\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Abd\Comment\Notifications;
+namespace Amanuel\Comment\Notifications;
 
-use Abd\Comment\Mail\CommentSubmittedMail;
+use Amanuel\Comment\Mail\CommentSubmittedMail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Kavenegar\LaravelNotification\KavenegarChannel;
