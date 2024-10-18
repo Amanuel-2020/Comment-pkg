@@ -20,7 +20,7 @@
         </div>
         <div class="answer-comment">
             <p class="p-answer-comment">Send a Reply</p>
-            @if($comment->status == Abd\Comment\Models\Comment::STATUS_APPROVED)
+            @if($comment->status == amanuel\Comment\Models\Comment::STATUS_APPROVED)
                 <form action="{{route("comments.store")}}" method="post">
                     @csrf
                     <input type="hidden" name="comment_id" value="{{$comment->id}}">

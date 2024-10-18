@@ -1,9 +1,9 @@
 <?php
 
-namespace Abd\Comment\Notifications;
+namespace amanuel\Comment\Notifications;
 
-use Abd\Comment\Mail\CommentSubmittedMail;
-use Abd\Comment\Models\Comment;
+use amanuel\Comment\Mail\CommentSubmittedMail;
+use amanuel\Comment\Models\Comment;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;

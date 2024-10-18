@@ -1,13 +1,13 @@
 <?php
 
-namespace Abd\Course\Tests\Feature;
+namespace amanuel\Course\Tests\Feature;
 
-use Abd\Category\Models\Category;
-use Abd\Comment\Models\Comment;
-use Abd\Course\Models\Course;
-use Abd\RolePermissions\Database\Seeders\RolePermissionTableSeeder;
-use Abd\RolePermissions\Models\Permission;
-use Abd\User\Models\User;
+use amanuel\Category\Models\Category;
+use amanuel\Comment\Models\Comment;
+use amanuel\Course\Models\Course;
+use amanuel\RolePermissions\Database\Seeders\RolePermissionTableSeeder;
+use amanuel\RolePermissions\Models\Permission;
+use amanuel\User\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Http\UploadedFile;

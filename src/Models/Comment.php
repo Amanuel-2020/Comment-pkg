@@ -1,8 +1,8 @@
 <?php
 
-namespace Abd\Comment\Models;
+namespace amanuel\Comment\Models;
 
-use Abd\User\Models\User;
+use amanuel\User\Models\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Comment extends Model

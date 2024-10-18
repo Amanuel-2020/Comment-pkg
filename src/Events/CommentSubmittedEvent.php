@@ -1,6 +1,6 @@
 <?php
 
-namespace Abd\Comment\Events;
+namespace amanuel\Comment\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;

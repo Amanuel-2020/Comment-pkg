@@ -1,10 +1,10 @@
 <?php
 
-namespace Abd\Comment\Providers;
+namespace amanuel\Comment\Providers;
 
-use Abd\Comment\Models\Comment;
-use Abd\Comment\Policies\CommentPolicy;
-use Abd\RolePermissions\Models\Permission;
+use amanuel\Comment\Models\Comment;
+use amanuel\Comment\Policies\CommentPolicy;
+use amanuel\RolePermissions\Models\Permission;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

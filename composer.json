@@ -1,15 +1,35 @@
 {
     "name": "amanuel/comment",
+    "description": "A simple Laravel package for managing comments",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "amanuel\\Comment\\": "src"
+            "amanuel\\Comment\\": "src/"
         }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     },
     "extra": {
         "laravel": {
-            "providers":[
-                "\\amanuel\\Comment\\Providers\\CommentServiceProvider"
+            "providers": [
+                "amanuel\\Comment\\Providers\\CommentServiceProvider"
             ]
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "amanuel\\Comment\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

@@ -1,15 +1,15 @@
 <?php
-namespace Abd\Comment\Http\Controllers;
+namespace amanuel\Comment\Http\Controllers;
 
-use Abd\Comment\Events\CommentApprovedEvent;
-use Abd\Comment\Events\CommentRejectedEvent;
-use Abd\Comment\Events\CommentSubmittedEvent;
-use Abd\Comment\Http\Requests\CommentRequest;
-use Abd\Comment\Models\Comment;
-use Abd\Comment\Repositories\CommentRepo;
-use Abd\Common\Responses\AjaxResponses;
-use Abd\Course\Models\Course;
-use Abd\RolePermissions\Models\Permission;
+use amanuel\Comment\Events\CommentApprovedEvent;
+use amanuel\Comment\Events\CommentRejectedEvent;
+use amanuel\Comment\Events\CommentSubmittedEvent;
+use amanuel\Comment\Http\Requests\CommentRequest;
+use amanuel\Comment\Models\Comment;
+use amanuel\Comment\Repositories\CommentRepo;
+use amanuel\Common\Responses\AjaxResponses;
+use amanuel\Course\Models\Course;
+use amanuel\RolePermissions\Models\Permission;
 use App\Http\Controllers\Controller;
 
 class CommentController extends Controller
