@@ -1,8 +1,8 @@
 <?php
 
-namespace amanuel\Comment\Traits;
+namespace Abd\Comment\Traits;
 
-use amanuel\Comment\Models\Comment;
+use Abd\Comment\Models\Comment;
 use Illuminate\Database\Eloquent\Concerns\HasRelationships;
 
 trait HasComments

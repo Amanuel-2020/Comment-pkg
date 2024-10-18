@@ -1,9 +1,9 @@
 <?php
 
-namespace amanuel\Comment\Repositories;
+namespace Abd\Comment\Repositories;
 
-use amanuel\Comment\Models\Comment;
-use amanuel\RolePermissions\Models\Permission;
+use Abd\Comment\Models\Comment;
+use Abd\RolePermissions\Models\Permission;
 
 class CommentRepo
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace amanuel\Comment\Mail;
+namespace Abd\Comment\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

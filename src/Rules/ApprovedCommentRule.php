@@ -1,8 +1,8 @@
 <?php
 
-namespace amanuel\Comment\Rules;
+namespace Abd\Comment\Rules;
 
-use amanuel\Comment\Repositories\CommentRepo;
+use Abd\Comment\Repositories\CommentRepo;
 use Illuminate\Contracts\Validation\Rule;
 
 class ApprovedCommentRule implements Rule
